@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Giphy Gift</string>
+    <string name="full_name">Full Name</string>
+    <string name="code">Code</string>
+    <string name="login">Login</string>
+    <string name="search">Search</string>
+    <string name="limit">Limit</string>
+    <string name="share">Share</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_home">Magic Box</string>
+    <string name="title_shake">Shake</string>
+    <string name="title_dashboard">Search</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="search_q">I am looking for :</string>
+    <string name="search_lanaguage_all">All</string>
+    <string name="search_lanaguage_ar">Arabic</string>
+    <string name="search_lanaguage_en">English</string>
+    <string name="search_content_rating">Content Rating</string>
+    <string name="shake_description">Shake to get Random result</string>
+</resources>
