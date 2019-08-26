@@ -51,8 +51,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="cat" />
+            android:inputType="textPersonName" />
 
         <TextView
             android:layout_width="match_parent"

@@ -97,12 +97,6 @@ public class HomeActivity extends AppCompatActivity implements MyRecyclerViewAda
         spinnerRating.setAdapter(contentAdapter);
         spinnerRating.setOnItemSelectedListener(this);
 
-        /* Not needed, just to show its usage */
-        sharedPreferences = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
-        SharedPreferences.Editor editor = sharedPreferences.edit();
-        editor.putString("APIKey", "Vi0BzPAqqIYaYi8j3XbY2qhr4XeVGuQc");
-        editor.commit();
-
         language = "all";
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
@@ -246,7 +240,7 @@ public class HomeActivity extends AppCompatActivity implements MyRecyclerViewAda
             List<ResponseObject> list;
             list = new ArrayList<ResponseObject>();
             try {
-                String APIKey = sharedPreferences.getString("APIKey","");
+                String APIKey = "Vi0BzPAqqIYaYi8j3XbY2qhr4XeVGuQc";
                 String fullURL="https://api.giphy.com/v1/gifs/search?api_key="+APIKey;
                 fullURL += "&q="+search;
                 fullURL +="&offset=0";
